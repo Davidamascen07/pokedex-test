@@ -1,0 +1,103 @@
+.cartao-pokemon{
+        display: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;; /*box shadow https://getcssscan.com/css-box-shadow-examples*/
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    
+}
+
+.cartao-pokemon .cartao-topo{
+    /* background-color: wheat; */
+    padding: 30px 40px;
+}
+
+.cartao-pokemon .nome{
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo{
+    font-size: 12px;
+    background-color: #eeeeee;
+    opacity: 0,7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cartao-pokemon .detalhes{
+    color: rgb(20, 19, 19);
+    display: flex; /* filhos ficam em linha*/
+    justify-content: space-between; /* coloca espaço entre elementos que estao nessa div*/
+    align-items: center;/*vai alinhar os elementos no0 centro*/
+    
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 220px;
+    height: 220px;
+    /* background-color: rgb(10, 10, 172); */
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+    border-bottom-left-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 80px 30px 50px;
+    margin-top: -90px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+.cartao-pokemon .cartao-informacoes .status{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades{
+    padding: 0 10px;
+    width: 180px;    
+}
+
+.cartao-informacoes .status ul li, .cartao-informacoes .habilidades ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto{
+    display: block;
+}
+
+.tipo-fogo{
+    background-color: #ed8a8b;
+}
+.tipo-eletrico{
+    background-color: #fcc719;
+}
+.tipo-agua{
+    background-color: #1871e6;
+}
+.tipo-fantasma{
+    background-color: #ba68c8;
+}
+.tipo-grama{
+    background-color: #49d0b0
+}
+.tipo-dragao{
+    background-color: rgb(97, 0, 253);
+}
+
+
+
+    
+
